@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            background-image: url("https://cdn.pixabay.com/photo/2015/12/29/14/51/mountains-1112911_1280.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            color: whitesmoke;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+            color: black;
+        }
+
+        .container input {
+            padding: 5px;
+            background-color: rgb(94, 93, 93);
+            border: none;
+            color: white;
+
+
+        }
+
+        .container textarea {
+            padding: 3px;
+            background-color: rgb(94, 93, 93);
+            color: white;
+        }
+
+        .container .button {
+            font-size: 20px;
+        }
+
+        .container .reset {
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="webpage.html">
+            <h1>Registration page</h1>
+            <p>Username:<input type="text" placeholder="Enter name" required /></p>
+            <p>Email:<input type="email" placeholder="Enter gmail" required /></p>
+            <p>Password:<input type="password" placeholder="Enter password" required /></p>
+            <p>Confirmpassword:<input type="password" placeholder="Confirm password" required /></p>
+            <p>Age:<input type="Age" placeholder="Enter age" required /></p>
+            <p>Gender:
+                <input type="radio" name="gender" required />Male
+                <input type="radio" name="gender" required />Female
+            </p>
+            <p>Education:
+                <input type="checkbox" />10th
+                <input type="checkbox" />Intermediate
+                <input type="checkbox" />Btech
+            </p>
+            <p>Phn:<input type="phone number" placeholder="enter a number" required /></p>
+            <p>Address:<textarea rows="8" placeholder="address" required></textarea></p>
+            <p>
+                <button class="button">submit</button>
+                <button class="reset">reset</button>
+            </p>
+    </div>
+    </form>
+
+</body>
+
+</html>
